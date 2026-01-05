@@ -1,117 +1,38 @@
 # Sentry Agent Skills
 
-This repository contains agent skills for Sentry employees, following the [Agent Skills specification](https://agentskills.io). These skills provide AI agents with Sentry-specific knowledge for code review, commit formatting, and other engineering workflows.
+A collection of agent skills following the [Agent Skills specification](https://agentskills.io) for use by Sentry employees.
 
-## Installation
-
-### Claude Code (via Marketplace)
-
-```bash
-# Add the marketplace
-/plugin marketplace add getsentry/sentry-skills
-
-# Install the plugin
-/plugin install sentry-skills@sentry-skills
-```
-
-### Claude Code (from local clone)
-
-```bash
-# Clone the repository
-git clone git@github.com:getsentry/sentry-skills.git ~/sentry-skills
-
-# Install the plugin directly
-/plugin install ~/sentry-skills
-```
-
-After installation, restart Claude Code. The skills will be automatically invoked when relevant to your task.
-
-### Other Agents
-
-Copy the `skills/` directory to your agent's skills location, or reference the SKILL.md files directly according to your agent's documentation.
-
-## Available Skills
-
-| Skill | Description |
-|-------|-------------|
-| [code-review](skills/code-review/SKILL.md) | Sentry code review guidelines and checklist |
-| [commit](skills/commit/SKILL.md) | Sentry commit message conventions |
-
-## Repository Structure
+## Structure
 
 ```
-sentry-skills/
-├── .claude-plugin/
-│   ├── marketplace.json # Marketplace manifest (for /plugin marketplace add)
-│   └── plugin.json      # Plugin manifest
-├── skills/
-│   ├── code-review/
-│   │   └── SKILL.md     # Code review skill
-│   └── commit/
-│       └── SKILL.md     # Commit message skill
-├── AGENTS.md            # This file
-├── CLAUDE.md            # Symlink to AGENTS.md
-└── README.md            # GitHub README
+skills/<skill-name>/SKILL.md
 ```
 
-## Creating New Skills
+Each skill is a directory containing a `SKILL.md` file with YAML frontmatter (`name`, `description`) and markdown instructions.
 
-Skills follow the [Agent Skills specification](https://agentskills.io/specification). Each skill requires a `SKILL.md` file with YAML frontmatter.
+## Creating a Skill
 
-### Skill Template
-
-Create a new directory under `skills/` with this structure:
-
-```
-skills/my-skill/
-└── SKILL.md
-```
-
-**SKILL.md format:**
+1. Create `skills/<skill-name>/SKILL.md`
+2. Add frontmatter with `name` (kebab-case, 1-64 chars) and `description` (up to 1024 chars with trigger keywords)
+3. Write clear instructions in markdown
 
 ```yaml
 ---
-name: my-skill
-description: A clear description of what this skill does and when to use it. Include keywords that help agents identify when this skill is relevant.
+name: example-skill
+description: What this skill does and when to use it. Include trigger keywords.
 ---
 
-# My Skill Name
+# Example Skill
 
-## Instructions
-
-Step-by-step guidance for the agent.
-
-## Examples
-
-Concrete examples showing expected input/output.
-
-## Guidelines
-
-- Specific rules to follow
-- Edge cases to handle
+Instructions for the agent.
 ```
 
-### Naming Conventions
+## Current Skills
 
-- **name**: 1-64 characters, lowercase alphanumeric with hyphens only
-- **description**: Up to 1024 characters, include trigger keywords
-- Keep SKILL.md under 500 lines; split longer content into reference files
-
-### Optional Fields
-
-```yaml
----
-name: my-skill
-description: What this skill does
-license: Apache-2.0
-compatibility: Requires Python 3.9+
-allowed-tools: Read, Grep, Glob  # Restrict available tools
----
-```
+- `code-review` - Sentry code review guidelines
+- `commit` - Sentry commit message conventions
 
 ## References
 
-- [Agent Skills Specification](https://agentskills.io/specification)
+- [Agent Skills Spec](https://agentskills.io/specification)
 - [Sentry Engineering Practices](https://develop.sentry.dev/engineering-practices/)
-- [Sentry Commit Messages](https://develop.sentry.dev/engineering-practices/commit-messages/)
-- [Sentry Code Review](https://develop.sentry.dev/engineering-practices/code-review/)
