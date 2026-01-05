@@ -31,6 +31,7 @@ Instructions for the agent.
 
 - `code-review` - Sentry code review guidelines
 - `commit` - Sentry commit message conventions
+- `find-bugs` - Find bugs and security vulnerabilities in branch changes
 
 ## References
 

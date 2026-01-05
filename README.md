@@ -26,6 +26,16 @@ git clone git@github.com:getsentry/sentry-skills.git ~/sentry-skills
 
 After installation, restart Claude Code. The skills will be automatically invoked when relevant to your task.
 
+### Updating
+
+```bash
+# Update the marketplace index
+/plugin marketplace update
+
+# Update the plugin
+/plugin update sentry-skills@sentry-skills
+```
+
 ### Other Agents
 
 Copy the `skills/` directory to your agent's skills location, or reference the SKILL.md files directly according to your agent's documentation.
@@ -36,6 +46,7 @@ Copy the `skills/` directory to your agent's skills location, or reference the S
 |-------|-------------|
 | [code-review](plugins/sentry-skills/skills/code-review/SKILL.md) | Sentry code review guidelines and checklist |
 | [commit](plugins/sentry-skills/skills/commit/SKILL.md) | Sentry commit message conventions |
+| [find-bugs](plugins/sentry-skills/skills/find-bugs/SKILL.md) | Find bugs and security vulnerabilities in branch changes |
 
 ## Repository Structure
 
