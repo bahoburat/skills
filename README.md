@@ -50,6 +50,7 @@ Copy the `skills/` directory to your agent's skills location, or reference the S
 | [commit](plugins/sentry-skills/skills/commit/SKILL.md) | Sentry commit message conventions |
 | [deslop](plugins/sentry-skills/skills/deslop/SKILL.md) | Remove AI-generated code slop from branch changes |
 | [find-bugs](plugins/sentry-skills/skills/find-bugs/SKILL.md) | Find bugs and security vulnerabilities in branch changes |
+| [iterate-pr](plugins/sentry-skills/skills/iterate-pr/SKILL.md) | Iterate on a PR until CI passes and feedback is addressed |
 
 ## Repository Structure
 
