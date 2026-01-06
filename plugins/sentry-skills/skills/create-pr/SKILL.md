@@ -9,6 +9,17 @@ Create pull requests following Sentry's engineering practices.
 
 **Requires**: GitHub CLI (`gh`) authenticated and available.
 
+## Prerequisites
+
+Before creating a PR, ensure all changes are committed. If there are uncommitted changes, run the `sentry-skills:commit` skill first to commit them properly.
+
+```bash
+# Check for uncommitted changes
+git status --porcelain
+```
+
+If the output shows any uncommitted changes (modified, added, or untracked files that should be included), invoke the `sentry-skills:commit` skill before proceeding.
+
 ## Process
 
 ### Step 1: Verify Branch State

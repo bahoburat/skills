@@ -7,6 +7,24 @@ description: Create commit messages following Sentry conventions. Use when commi
 
 Follow these conventions when creating commits for Sentry projects.
 
+## Prerequisites
+
+Before committing, ensure you're working on a feature branch, not the main branch.
+
+```bash
+# Check current branch
+git branch --show-current
+```
+
+If you're on `main` or `master`, create a new branch first:
+
+```bash
+# Create and switch to a new branch
+git checkout -b <type>/<short-description>
+```
+
+Branch naming should follow the pattern: `<type>/<short-description>` where type matches the commit type (e.g., `feat/add-user-auth`, `fix/null-pointer-error`, `ref/extract-validation`).
+
 ## Format
 
 ```
