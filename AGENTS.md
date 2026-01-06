@@ -19,6 +19,7 @@ Each skill is a directory containing a `SKILL.md` file with YAML frontmatter (`n
 3. Write clear instructions in markdown
 4. Update `README.md` to include the new skill in the Available Skills table
 5. Update the skills allowlist in `plugins/sentry-skills/skills/claude-settings-audit/SKILL.md`
+6. Add the skill to `.claude/settings.json` in the `permissions.allow` array as `Skill(sentry-skills:<skill-name>)`
 
 ### Frontmatter
 
