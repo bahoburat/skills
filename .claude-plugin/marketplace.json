@@ -1,7 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "sentry-skills",
-  "version": "1.0.0",
   "description": "Sentry-specific agent skills for Claude Code",
   "owner": {
     "name": "Sentry",
@@ -11,7 +10,6 @@
     {
       "name": "sentry-skills",
       "description": "Sentry-specific agent skills for code review, commits, and more",
-      "version": "1.0.0",
       "author": {
         "name": "Sentry"
       },
